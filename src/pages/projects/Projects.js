@@ -316,7 +316,7 @@ class Projects extends Component {
                 </div>
                 <div className="cert-body">
                   <a
-                    href={"https://roomacake.com/no/public/"}
+                    href={"https://alasakerhorse.com/on/"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nav-link"
