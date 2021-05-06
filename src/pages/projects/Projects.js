@@ -297,6 +297,47 @@ class Projects extends Component {
               </div>
             </Fade>
           </div>
+          <div className="col-md-3">
+            <Fade bottom duration={2000} distance="20px">
+              <div className="cert-card" style={{ width: "100%" }}>
+                <div className="content">
+                  <div className="content-overlay"></div>
+                  <div
+                    className="cert-header"
+                    style={{ backgroundColor: "#4a4fb5" }}
+                  >
+                    <img
+                      className="logo_img"
+                      src={require(`../../assests/images/Screenshot 2021-05-06 143606.png`)}
+                      alt="project"
+                      style={{ width: "100%", height: "250px" }}
+                    />
+                  </div>
+                </div>
+                <div className="cert-body">
+                  <a
+                    href={"https://roomacake.com/no/public/"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="nav-link"
+                  >
+                    <h2
+                      className="cert-body-title"
+                      style={{ color: theme.text }}
+                    >
+                      HorseTraining
+                    </h2>
+                  </a>
+                  <h3
+                    className="cert-body-subtitle"
+                    style={{ color: theme.secondaryText }}
+                  >
+                    Horse Training website for sell training services
+                  </h3>
+                </div>
+              </div>
+            </Fade>
+          </div>
         </div>
         <h2 class="text-center col-md-12">And More .. Missing Sources</h2>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
